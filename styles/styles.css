@@ -1,0 +1,141 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/* 
+<!-- ================================================= -->
+<!-- NAV BAR -->
+<!-- ================================================= --> }
+*/
+
+.navbar {
+  font-size: 25px;
+}
+.dropdown-menu a {
+  color: black;
+}
+
+/* <!-- NAV BAR  TEXT--> */
+.navbar-nav a {
+  color: white;
+}
+
+/* 
+<!-- ================================================= -->
+<!--  MAIN CAROUSEL-->
+<!-- ================================================= --> }
+*/
+
+.carousel{
+  position: sticky;
+}
+.carousel-item {
+  max-height: 35rem;
+}
+
+.carousel-item button {
+  border: none;
+  border-radius: 0.31em;
+  padding: 0.93em 1.87em;
+  margin-right: 1.25rem;
+  cursor: pointer;
+  transition: .5s ease all;
+  font-size: 1.12em;
+}
+
+.carousel-item button:hover {
+  background: black;
+  color: #fff;
+}
+.carousel-item button i {
+  margin:auto
+}
+
+.dropdown-menu a {
+  color: black;
+}
+
+
+/* 
+<!-- ================================================= -->
+<!-- CONTENEDOR DE PELICULAS->
+<!-- ================================================= --> }
+*/
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 60px;
+}
+
+.titulo-contenedor{
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.paginacion {
+	position: static;
+	bottom: 0;
+	background: #212529;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background: #241744;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	transition: .3s ease all;
+}
+
+.paginacion button:hover {
+	background: #137c32;
+}
+
+/* 
+<!-- ================================================= -->
+<!-- CONTENEDOR PRINCIPAL-->
+<!-- ================================================= --> }
+*/
+
+
+                      
